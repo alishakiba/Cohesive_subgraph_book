@@ -9,8 +9,8 @@ graph_module = Extension(
 
 setup (
 	name        = 'Graph',
-	version     = '0.0',
-	author      = "YOUR_NAME",
+	version     = '0.1',
+	author      = "",
 	description = "Graph swig",
 	ext_modules = [graph_module],
 	py_modules  = ["Graph"], # name of module that we're going import
