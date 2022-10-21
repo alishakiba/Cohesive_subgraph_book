@@ -1,0 +1,25 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Hidden folder created by the `make clean`
+.obj/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Compiled dynamic libraries
+*.so
+
+# Compiled object files 
+*.obj
+*.o
+
+# build packages
+build/
+
