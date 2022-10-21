@@ -3,6 +3,9 @@
 #
 CC=g++ -flto -O3
 CFLAGS=-c -I. -std=c++11
+SWIG=swig4.0
+SWIGFLAGS=-c++ -python
+PYTHON=python
 
 all: core_decompose
 
@@ -19,3 +22,7 @@ core_decompose: .obj/main.o .obj/Graph.o
 clean:
 	rm -rf *o .obj/
 	mkdir .obj
+
+python: 
+	${SWIG} ${SWIGFLAGS} Graph.i
+	${PYTHON} setup.py build_ext --inplace 
