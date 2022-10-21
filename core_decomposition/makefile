@@ -24,7 +24,5 @@ clean:
 	mkdir .obj
 
 python: 
-	mkdir -p cppfiles
-	mkdir -p pyfiles
 	${SWIG} ${SWIGFLAGS} Graph.i
 	${PYTHON} setup.py build_ext --inplace 
