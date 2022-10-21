@@ -30,7 +30,7 @@ Note that, parameter "output" is optional
 * hierarchy constructs the core spanning tree
 
 ## Python bindings
-To have the python bindings, you need to install the [SWIG-4.0]() tool, e.g. in Ubuntu linux
+To have the python bindings, you need to install the [SWIG-4.0](https://www.swig.org/) tool, e.g. in Ubuntu linux
 ```sh
 $ sudo apt install swig-4.0
 ```
